@@ -17,5 +17,18 @@ This project is a comprehensive **Airline Reservation System** built using **C++
 - **C++ Compiler**: Compatible with any modern C++ compiler (e.g., GCC)
 - **WSL**: Windows Subsystem for Linux (for running on Windows)
 
+## Installation
+1. Clone the repository:
+```bash
+   git clone https://github.com/theaayushg/Airport-Reservation-C-.git
+2. Navigate to the Part4 folder:
+```bash
+cd Part4
+3. Compile the project using the provided command:
+```bash
+g++ -o TestData2 TestData2.cpp ECAirport.cpp ECAirlineOperation.cpp ECAirlineTicketing.cpp ECAirlineFinancial.cpp ECFlightItinerary.cpp ECAirlineSimulator.cpp ECTextViewImp.cpp ECConsoleUIView.cpp ECConsoleUIListBox.cpp ECConsoleUITextField.cpp ECConsoleUIButton.cpp ECFlight.cpp ECConsoleUITextLabel.cpp -std=c++20
+4. Run the application:
+```bash
+./TestData2 data-file.txt
 
 This `README.md` gives a clear overview of the project, how to set it up, and use it. Let me know if you’d like to adjust or add anything!
